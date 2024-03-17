@@ -14,7 +14,7 @@ $(document).ready(function(){
                     $currentImgIndex = ($currentImgIndex + 1) % $imgCount;
                     $imgs.hide().eq($currentImgIndex).fadeIn(200);
                 });
-            }, 4000); // Adjust time as needed
+            }, 6000); // Adjust time as needed
         }
 
         // Function to stop the animation
